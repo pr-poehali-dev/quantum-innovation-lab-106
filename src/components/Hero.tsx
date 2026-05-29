@@ -60,12 +60,6 @@ export function Hero() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
-          <a
-            href="#philosophy"
-            className="inline-flex items-center gap-2 px-8 py-4 text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
-          >
-            Наш подход
-          </a>
         </div>
       </div>
 
