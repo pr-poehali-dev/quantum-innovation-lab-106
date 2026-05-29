@@ -15,22 +15,10 @@ export function Header() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-12">
             <a
-              href="#philosophy"
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
-            >
-              Философия
-            </a>
-            <a
               href="#services"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
               Услуги
-            </a>
-            <a
-              href="#process"
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
-            >
-              Процесс
             </a>
             <a
               href="#contact"
@@ -64,25 +52,11 @@ export function Header() {
         >
           <div className="flex flex-col gap-6 pt-4">
             <a
-              href="#philosophy"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Философия
-            </a>
-            <a
               href="#services"
               onClick={() => setIsMenuOpen(false)}
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
               Услуги
-            </a>
-            <a
-              href="#process"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Процесс
             </a>
             <a
               href="#contact"
