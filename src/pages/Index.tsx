@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header"
 import { Hero } from "@/components/Hero"
+import { About } from "@/components/About"
 import { Services } from "@/components/Services"
 import { Testimonial } from "@/components/Testimonial"
 import { Contact } from "@/components/Contact"
@@ -10,6 +11,7 @@ export default function Index() {
     <main className="min-h-screen">
       <Header />
       <Hero />
+      <About />
       <Services />
       <Testimonial />
       <Contact />
