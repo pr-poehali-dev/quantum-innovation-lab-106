@@ -18,9 +18,6 @@ export function Footer() {
               <a href="#services" className="text-sm text-foreground hover:text-sage transition-colors">
                 Услуги
               </a>
-              <a href="#contact" className="text-sm text-foreground hover:text-sage transition-colors">
-                Контакты
-              </a>
             </nav>
           </div>
 

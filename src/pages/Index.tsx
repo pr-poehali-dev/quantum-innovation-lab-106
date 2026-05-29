@@ -3,7 +3,6 @@ import { Hero } from "@/components/Hero"
 import { About } from "@/components/About"
 import { OurServices } from "@/components/OurServices"
 import { Testimonial } from "@/components/Testimonial"
-import { Contact } from "@/components/Contact"
 import { Footer } from "@/components/Footer"
 
 export default function Index() {
@@ -14,7 +13,6 @@ export default function Index() {
       <About />
       <OurServices />
       <Testimonial />
-      <Contact />
       <Footer />
     </main>
   )
