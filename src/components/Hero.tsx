@@ -31,27 +31,7 @@ export function Hero() {
           Мы основываемся на работе с печатью.
         </p>
 
-        {/* CTA */}
-        <div
-          className={`flex flex-col sm:flex-row gap-4 justify-center items-center transition-all duration-1000 delay-1000 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
-          <a
-            href="#contact"
-            className="group inline-flex items-center gap-3 px-8 py-4 bg-sage text-primary-foreground text-sm tracking-widest uppercase hover:bg-sage/90 transition-all duration-500"
-          >
-            Наши услуги
-            <svg
-              className="w-4 h-4 transition-transform duration-500 group-hover:translate-x-1"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </a>
-        </div>
+
       </div>
 
       {/* Scroll indicator */}
