@@ -28,8 +28,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Можете прочитать о нас больше,{" "}
-          <a href="#philosophy" className="block text-sage hover:text-sage/80 transition-colors duration-300">по ссылке Более</a>
+          <a href="#philosophy" className="hover:text-sage/80 transition-colors duration-300">Можете прочитать о нас более в ОДИН КЛИК</a>
         </h1>
 
         {/* Subheadline */}
